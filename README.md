@@ -12,7 +12,7 @@ This project is a Telegram bot integrated with a watering system, built using Ty
 ## Project Structure
 
 ```
-telegram-watering-system/
+app/backend/
 ├── .env
 ├── package.json
 ├── tsconfig.json
@@ -23,6 +23,9 @@ telegram-watering-system/
 │   ├── routes/
 │   │   ├── api.ts
 │   │   ├── status.ts
+
+app/esp32
+├── esp32_watering.ino
 ```
 
 ## Getting Started
